@@ -13,15 +13,8 @@ Used for
 ---
 
 Setup & Run
-1. Install dependencies:
-   npm install
-
-2. Start the service:
-   npm run dev   # with logging/hot reload
-   # or
-   npm start
-
-Note: Environment variables are already provided via .env.
+   Install dependencies: npm install
+   Start the service: node image_controller.mjs
 
 Localhost
 - Base URL: http://localhost:4004

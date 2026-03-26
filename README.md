@@ -46,7 +46,7 @@ Manages the product/item dataset.
 ---
 
 ## Architecture (at a glance)
-
+```
 [ Browser UI ]
      │
      ├── GET /items, GET /items/:id, search/filter  → D (Catalog)
@@ -58,7 +58,7 @@ External/optional integration
 
 Auth convention (admin-only routes):
 x-admin-token: authorized_admin
-
+```
 ---
 
 ## Setup & Run (local)
